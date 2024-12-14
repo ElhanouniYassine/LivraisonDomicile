@@ -1,0 +1,69 @@
+@charset "UTF-8";
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.btn.accept {
+    background-color: #00cc66;
+    color: white;
+}
+
+.btn.accept:hover {
+    background-color: #00994d;
+}
+
+.btn.reject {
+    background-color: #cc0000;
+    color: white;
+}
+
+.btn.reject:hover {
+    background-color: #990000;
+}
+.btn.accept {
+    background-color: #00cc66;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.accept:hover {
+    background-color: #00994d;
+}
+
+.btn.deliver {
+    background-color: #0000cc;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn.deliver:hover {
+    background-color: #000099;
+}
+
